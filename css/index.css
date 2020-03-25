@@ -60,3 +60,69 @@ main .carousel-inner img{
 	height: 100%;
 	padding: 5%;
 }
+
+
+#graph #Vector_5{
+	
+	animation-name: graph;
+    animation-duration: 5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;  
+
+}
+@-webkit-keyframes graph {
+    0%     {fill:dodgerblue;}
+    50.0%  {fill:greenyellow;} 
+    100.0%  {fill:dodgerblue;}
+}
+
+@keyframes graph{
+    0%     {fill:dodgerblue;}
+    50.0%  {fill:greenyellow;}
+    100.0%  {fill:dodgerblue;}
+}
+
+
+#lightbulb #Vector_2{
+	
+	animation-name: bulb;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;  
+
+}
+@-webkit-keyframes bulb {
+    0%     {fill:lemonchiffon;}
+    33.0%  {fill:yellow;} 
+	66.0%  {fill:orange;}
+	100.0%  {fill:yellow;} 
+}
+
+@keyframes bulb{
+    0%     {fill:lemonchiffon;}
+    33.0%  {fill:yellow;} 
+	66.0%  {fill:orange;}
+	100.0%  {fill:yellow;} 
+}
+
+#bars #Vector_10{
+	animation-name: barsgrowth;
+    animation-duration: 2s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;    
+    animation-play-state: running;  
+}
+
+@-webkit-keyframes barsgrowth{
+    0%     {fill:dodgerblue;}
+    50.0%  {fill:greenyellow;}
+    100.0%  {fill:dodgerblue;}
+}
+
+@keyframes barsgrowth{
+    0%     {fill:dodgerblue;}
+    50.0%  {fill:greenyellow;}
+    100.0%  {fill:dodgerblue;}
+}
