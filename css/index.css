@@ -61,6 +61,19 @@ main .carousel-inner img{
 	padding: 5%;
 }
 
+.jumbotron {
+background: #358CCE;
+color: #000000;
+border-radius: 0px;
+}
+.jumbotron-sm { padding-top: 24px;
+padding-bottom: 24px; }
+.jumbotron small {
+color: #000000;
+}
+.h1 small {
+font-size: 24px;
+}
 
 #graph #Vector_5{
 	
